@@ -1,5 +1,7 @@
 # 5 Minute "Hush" Countdown Timer for OBS
 
+Link for OBS: https://honath.github.io/no-talking-timer/
+
 ## Overview
 
 This is a basic timer to be used as an OBS Browser Source - it is set to a default time of 5 minutes,
@@ -63,16 +65,20 @@ You can view how to add a browser source to OBS
 ## File Structure
 
 - ./ (Root folder)
-  - index.html (Document structure)
-  - style.css (Styling for entire document)
-  - script.js (Manages display of the primary element and function of the timer)
+  - [index.html](https://github.com/honath/no-talking-timer/blob/master/index.html) (Document structure)
+  - [style.css](https://github.com/honath/no-talking-timer/blob/master/style.css) (Styling for entire document)
+  - [script.js](https://github.com/honath/no-talking-timer/blob/master/script.js) (Manages display of the primary element and function of the timer)
   - ./images/ (Folder for containing any images)
-    - shush.jpg (Image used in browser source)
+    - [shush.jpg](https://github.com/honath/no-talking-timer/blob/master/images/shush.jpg) (Image used in browser source)
   - README.md (This README document)
 
 ## Changelog
 
-### 6/4/2021 - v1.0
+#### 6/4/2021 - v1.0a (HOTFIX)
+- Slight changes to the README
+- Timer interval was not clearing properly after timer finished. This should be resolved now.
+
+#### 6/4/2021 - v1.0
 
 - Initial release
 - Features 5 minute timer
@@ -87,4 +93,4 @@ You can view how to add a browser source to OBS
 
 ## Bugs and Suggestions
 
-Please report any bugs as an `issue` here on GitHub - suggestions are also welcome.
+Please report any bugs as an [issue](https://github.com/honath/no-talking-timer/issues) here on GitHub - suggestions are also welcome.

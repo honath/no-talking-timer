@@ -107,7 +107,7 @@ function startClickHandler() {
        */
       if (timeInSeconds < 0) {
         visibilityToggler();
-        clearInterval(window.countdownTimer);
+        intervalsArray.map(clearAllTimers);
 
         toggleActiveFlag();
       }
