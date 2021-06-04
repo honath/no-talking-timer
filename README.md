@@ -1,6 +1,15 @@
 # 5 Minute "Hush" Countdown Timer for OBS
 
-Link for OBS: https://honath.github.io/no-talking-timer/
+Paste this link into the OBS Browser Source: <a href="https://honath.github.io/no-talking-timer/" target="_blank">https://honath.github.io/no-talking-timer/</a>
+
+## Contents
+
+1. [Overview](#overview)
+1. [Usage](#usage)
+1. [File Structure](#file-structure) 
+1. [Changelog](#changelog)
+1. [Planned Improvements](#planned-improvements)
+1. [Bugs and Suggestions](#bugs-and-suggestions)
 
 ## Overview
 
@@ -10,6 +19,8 @@ the timer and image is hidden again.
 
 ## Usage
 
+**NOTICE: Pressing the `'Start'` button while the timer is already running will restart the timer!**
+
 Feel free to add this as a browser source and use it inside of your own streams.
 
 You can change the configuration by forking and cloning this repository -
@@ -17,7 +28,7 @@ change the "MINUTES" variable in the `script.js` file to the amount of minutes o
 and then host the document on whichever hosting service you prefer. I am using GitHub.
 
 You can view how to add a browser source to OBS
-[here.](https://blog.streamlabs.com/introducing-browser-source-interaction-for-streamlabs-obs-d8fc4dcbb1fb)
+<a href="https://blog.streamlabs.com/introducing-browser-source-interaction-for-streamlabs-obs-d8fc4dcbb1fb" target="_blank">here.</a>
 
 ### Recommended OBS Window Settings for Browser Source
 
@@ -32,7 +43,7 @@ You can view how to add a browser source to OBS
   You can use this instead of an open window or tab in your browser, and is my recommendation.
 - Feel free to use custom CSS in the source properties. The image and timer are inside of an element with a class of `.wrapper` - you
   should be able to select it from there, and move it around if needed.
-- Learn more about CSS at [W3Schools.com](https://www.w3schools.com/css/default.asp)
+- Learn more about CSS at <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools.com</a>
 
 ### Additional Customization within OBS
 
@@ -74,6 +85,13 @@ You can view how to add a browser source to OBS
 
 ## Changelog
 
+#### 6/4/2021 - v1.0b (HOTFIX)
+- Made the wording more clear on line 3 in README
+- Added a table of contents
+- Added disclaimer under [Usage](#usage) line 22 in README
+- Added a link back to the top of this README, at the bottom.
+- General link improvements in README
+
 #### 6/4/2021 - v1.0a (HOTFIX)
 - Slight changes to the README
 - Timer interval was not clearing properly after timer finished. This should be resolved now.
@@ -93,4 +111,6 @@ You can view how to add a browser source to OBS
 
 ## Bugs and Suggestions
 
-Please report any bugs as an [issue](https://github.com/honath/no-talking-timer/issues) here on GitHub - suggestions are also welcome.
+Please report any bugs as an <a href="https://github.com/honath/no-talking-timer/issues" target="_blank">issue</a> here on GitHub - suggestions are also welcome.
+
+- [Take me back to the top!](#5-minute-"hush"-countdown-timer-for-obs)
